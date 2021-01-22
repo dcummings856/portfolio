@@ -25,6 +25,7 @@ nav {
 }
 
 .nav-list {
+  display: inline-flex;
   list-style-type: none;
 }
 
@@ -34,10 +35,10 @@ nav {
 
 .nav-list li {
   background: #64bb9a86;
-  text-align: center;
-  margin: 10px;
-  height: 56px;
-  width: 95px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  margin: 5px;
   border-radius: 10%;
   cursor: pointer;
 }
@@ -59,8 +60,6 @@ main > p {
 
 img {
   display: flex;
-  flex-direction: row;
-  position: relative;
   width: 270px;
   height: 350px;
   border-radius: 20%;
