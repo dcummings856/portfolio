@@ -6,6 +6,10 @@ html {
   background: rgba(235, 244, 245, 0.685);
 }
 
+.header-h1 {
+  background: rgb(189, 189, 189);
+}
+
 .header-h1, .about-me-h2 {
   color: #506968;
 }
