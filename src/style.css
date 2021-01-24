@@ -28,6 +28,11 @@ nav {
   text-align: center;
 }
 
+nav {
+  width: 100%;
+  background: #64bb9a86;
+}
+
 .nav-list {
   display: inline-flex;
   list-style-type: none;
@@ -35,15 +40,13 @@ nav {
 
 .nav-list li:hover {
   background: #549e8286;
+  text-decoration: underline;
 }
 
 .nav-list li {
-  background: #64bb9a86;
   align-items: center;
   justify-content: center;
   padding: 15px 20px;
-  margin: 5px;
-  border-radius: 10%;
   cursor: pointer;
 }
 
