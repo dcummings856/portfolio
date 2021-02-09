@@ -63,6 +63,7 @@ main > h2 {
 
 main > p {
   margin: 5px 20px;
+  padding: 0 15rem;
 }
 
 img {
