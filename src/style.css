@@ -44,6 +44,8 @@ nav {
 }
 
 .nav-list li {
+  font-size: large;
+  font-weight: 700;
   align-items: center;
   justify-content: center;
   padding: 15px 20px;
@@ -66,10 +68,15 @@ main > p {
   padding: 0 15rem;
 }
 
-img {
+.img-container {
   display: flex;
-  width: 270px;
-  height: 350px;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-photo {
+  max-width: 350px;
+  max-height: 466px;
   border-radius: 20%;
   padding: 10px;
 }
