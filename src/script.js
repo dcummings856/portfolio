@@ -6,7 +6,7 @@ const instagram = document.querySelector('.li-instagram')
 github.addEventListener('click', getGithub)
 
 function getGithub () {
-  window.location.href = "https://github.com/dcummings856"
+  window.open("https://github.com/dcummings856")
 }
 
 resume.addEventListener('click', getResume)
@@ -18,11 +18,11 @@ function getResume () {
 twitter.addEventListener('click', getTwitter)
 
 function getTwitter () {
-  window.location.href = "https://twitter.com/dcummings856"
+  window.open("https://twitter.com/dcummings856")
 }
 
 instagram.addEventListener('click', getInstagram)
 
 function getInstagram () {
-  window.location.href = "https://www.instagram.com/davecummings/?hl=en"
+  window.open("https://www.instagram.com/davecummings/?hl=en")
 }
