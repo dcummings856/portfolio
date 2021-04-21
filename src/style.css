@@ -3,11 +3,11 @@
 }
 
 html {
-  background: rgb(0, 0, 0);
+  background: rgb(232, 241, 243);
 }
 
 .header-h1, .about-me-h2 {
-  color: #82e7ac;
+  color: #25498d;
 }
 
 nav {
@@ -15,16 +15,16 @@ nav {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background: #83f8cbc7;
+  background: #14304bc7;
 }
 
 .about-me-p {
-  color: #0496ff;
+  color: #092438;
 }
 
 .nav-list {
   display: inline-flex;
-  color: rgb(31, 29, 29);
+  color: rgb(227, 226, 235);
   list-style-type: none;
 }
 
@@ -77,7 +77,7 @@ main > p {
 
 h5 {
   text-align: center;
-  color: white;
+  color: rgb(28, 31, 32);
 }
 
 @media only screen and (max-width: 1500px) {
